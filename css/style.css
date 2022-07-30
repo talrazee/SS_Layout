@@ -1,16 +1,17 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: 'open sans' sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
-/* Navbar css */
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
 
 .container {
     width: 1140px;
     margin: 0px auto;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,23 +22,9 @@ a, a:hover {
     text-decoration: none;
 }
 
-.logo {
-    width: 10%;
-    float: left;
-    margin: 20px 0 0;
-    
-}
-
-.header {
-    width: 100%;
-    height: 250px;
-    float: left;
-    background: #fff;
-}
-
 .navbar {
     width: 90%;
-    float: left;
+    float: left; 
     display: block;
     text-align: center;
     margin: 40px 0 0;
@@ -46,6 +33,7 @@ a, a:hover {
 .navbar li {
     list-style: none;
     display: inline-block;
+
 }
 
 .navbar li a {
@@ -56,125 +44,107 @@ a, a:hover {
     margin: 0 20px;
     color: #2c3e50;
 }
-/*
-nav ul {
-    width: 90%;
-    list-style-type: none;
-    text-align: center;
-  margin: 0;
-  padding: 0;
-  display: inline-flex;
-  align-items: right;
-*/
 
-
-
-nav ul li a {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: #2A3079;
-  border: 2px solid;
-  border-radius: 2em;
-  padding: 0.5em;
+.navbar li a:hover {
+    color: #2980b9;
 }
 
-nav ul li a:hover {
-  font-size: 1.5em;
-  text-decoration: none;
-  color: #2F7BCD;
-  border: 2px solid;
-  border-radius: 2em;
-  padding: 0.5em;
+.header {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background: #fff;
 }
-
-/* Main CSS */
 
 .logo {
-  width: 10%;
-  float: left;
-  margin: 20px 0 0;
+    width: 10%;
+    float: left;
+    margin: 20px 0 0;
 }
 
-.btn {
-  border: 2px solid #2A3079;
-  margin: 10px 0px;
-  padding: 0.5em;
-  border-radius: 2em;
-  color: #2A3079;
-  text-decoration: none;
-  background-color: #57B8E8;
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #2c3e50;
+    float: left;
 }
 
 .about {
     width: 100%;
     float: left;
     padding: 80px 0px;
+    background: #fff;
+}
+
+.box1 {
+    width: 30%;
+    float: left;
+
+}
+
+.box1 h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+.box1 p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-weight: 300;
+
+}
+
+.box2 {
+    width: 70%;
+    float: left;
+}
+
+.intro-class {
+    width: 100%;
+}
+
+.colors .box1 {
+    width: 33.33%;
+    height: 600px;
+    background: #f1c40f;
+    float: left;
     
 }
 
-.text-area {
- width: 50%;
- float: left;
-  
+.colors .box2 {
+    width: 33.33%;
+    height: 600px;
+    background: #e67e22;
+    float: left;
+    
 }
 
-.texts {
-    max-width: 100%;
-    height: auto;
+.colors .box3 {
+    width: 33.33%;
+    height: 600px;
+    background: #e74c3c;
+    float: left;
+    
 }
 
-/*
-main {
-  position: relative;
-}
-*/
-
-.text-area h1 {
-  font-size: 50px;
-  margin-bottom: 15px;
-    color: #1e266d;
-}
-
-.text-area p {
-  font-size: 2em;
-  margin: 0.5em 0;
+.btn {
+    width: 120px;
+    height: 40px;   
+    color: #fff;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #2c3e50;
+    font-size: 1rem;
+    transition: ease-out 0.3s;
+    outline: none;
+        
 }
 
-
-/*
-.main-area {
-  margin-left: 1em;
-  margin-right: 1em;
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #2c3e50;
+    
 }
-*/
-
-/*
-.text-area .button a{
-  border: 2px solid #2A3079;
-  margin: 10em 0em;
-  padding: 0.5em;
-  border-radius: 2em;
-  color: #2A3079;
-  text-decoration: none;
-  background-color: #57B8E8;
-}
-*/
-
-/*
-.text-area .button a:hover{
-  border: 2px solid #2A3079;
-  margin: 10em 0em;
-  padding: 0.5em;
-  border-radius: 2em;
-  color: #57B8E8;
-  text-decoration: none;
-  background-color: #2A3079;
-}
-*/
-
-
-/*
-.text-area .texts {
-  margin-bottom: 1em;
-}
-*/
